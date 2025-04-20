@@ -12,7 +12,7 @@ public class Main {
         double percent = 9.99;
 
         // срок кредита в мес.
-        int term = 12;
+        int term = 24;
 
         int annuityPayment = service.calculate(loanAmount, percent, term);
         System.out.println(annuityPayment);
