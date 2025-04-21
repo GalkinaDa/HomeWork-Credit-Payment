@@ -12,8 +12,8 @@ public class CreditPaymentService {
         // коэффициент аннуитета
         double k = (m * Math.pow((1 + m), c)) / (Math.pow((1 + m), c) - 1);
 
-        double result = a * k;
-        return (int) result;
+        double annuityPayment = a * k;
+        return (int) annuityPayment;
 
     }
 
