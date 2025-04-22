@@ -14,7 +14,7 @@ public class Main {
         // срок кредита в мес.
         int term = 36;
 
-        int annuityPayment = service.calculate(loanAmount, percent, term);
-        System.out.println(annuityPayment);
+        int creditPayment = service.calculateCreditPayment(loanAmount, percent, term);
+        System.out.println(creditPayment);
     }
 }
